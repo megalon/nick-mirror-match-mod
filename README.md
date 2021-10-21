@@ -33,14 +33,14 @@ The format is `RRGGBBAA`
 [Colors]
 
 # Setting type: Color
-# Default value: 000000A8
-TintColor1 = 000000A8
+# Default value: 8245FFA8
+TintColor1 = 8245FFA8
 
 # Setting type: Color
-# Default value: FF0000A8
-TintColor2 = FF0000A8
+# Default value: FFED3BA8
+TintColor2 = FFED3BA8
 
 # Setting type: Color
-# Default value: 0000FFA8
-TintColor3 = 0000FFA8
+# Default value: 29F2D1A8
+TintColor3 = 29F2D1A8
 ```
