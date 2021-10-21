@@ -55,7 +55,7 @@ TintColor3 = 29F2D1A8
 
 Clone the project, then create a file in the root of the project directory named:
 
-`NickCustomMusicMod.csproj.user`
+`NickMirrorMatchMod.csproj.user`
 
 Here you need to set the `GameDir` property to match your install directory.
 
