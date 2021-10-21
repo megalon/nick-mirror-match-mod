@@ -1,11 +1,17 @@
-# NASB Mirror Match Mod
+﻿# NASB Mirror Match Mod
 
 This mod will recolor duplicate characters by simply tinting the model.
 
 ![image](https://user-images.githubusercontent.com/27714637/136115464-9b238b9e-0df1-437c-8271-4c572d629cba.png)
 
 
-## Installation
+## 🚀 Installation
+
+### Slime Mod Manager
+
+Download the latest version of this mod from the [Slime Mod Manager](https://github.com/legoandmars/SlimeModManager/releases/latest)!
+
+### Manual Installation
 
 *If your game isn't modded with BepinEx, DO THAT FIRST!*
 Simply go to the [latest BepinEx release](https://github.com/BepInEx/BepInEx/releases) and extract `BepinEx_x64_VERSION.zip` directly into your game's folder, then run the game once to install BepinEx properly.
@@ -15,7 +21,7 @@ This will place the dll in `BepInEx\plugins\`.
 
 That's it!
 
-## Configuration
+## 📝 Configuration
 
 **Run the game once to generate a config file!**
 
@@ -44,3 +50,23 @@ TintColor2 = FFED3BA8
 # Default value: 29F2D1A8
 TintColor3 = 29F2D1A8
 ```
+
+## 🔧 Developing
+
+Clone the project, then create a file in the root of the project directory named:
+
+`NickCustomMusicMod.csproj.user`
+
+Here you need to set the `GameDir` property to match your install directory.
+
+Example:
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <PropertyGroup>
+    <GameDir>D:\SteamLibrary\steamapps\common\Nickelodeon All-Star Brawl</GameDir>
+  </PropertyGroup>
+</Project>
+```
+
+Now when you build the mod, it should resolve your references automatically, and the build event will copy the plugin into your `BepInEx\plugins` folder!
