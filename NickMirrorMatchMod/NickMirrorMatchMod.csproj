@@ -33,6 +33,9 @@
     <Reference Include="UnityEngine.CoreModule">
       <HintPath>$(GameDir)\Nickelodeon All-Star Brawl_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
+    <Reference Include="MenuCore">
+      <HintPath>$(GameDir)\BepInEx\plugins\MenuCore.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
